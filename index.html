@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Moncada Leiva Jahir</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script>
+        $(document).ready(function(){
+                $('#datosPersonales').click(function(){
+                $("#contenido").load("datosPersonales.html");
+                });
+
+                $('#estudios').click(function(){
+                $("#contenido").load("estudios.html");
+                });
+
+                $('#resumen').click(function(){
+                $("#contenido").load("resumen.html");
+                });
+            });
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Curriculum Vitae
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html" id="principal">Principal</a>
+                </li>
+                
+                <li>
+                    <a href="#" id="estudios">Estudios</a>
+                </li>
+                <li>
+                    <a href="#" id="resumen">Resumen</a>
+                </li>
+               
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div  class=" col-md-12">
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>     
+                    </div>
+                   
+                    <div class="wrap" id="contenido" >
+                        <div class="col-md-6" align="center">
+                            <h1><b>PRINCIPAL</b></h1>
+                            <img src="/Curriculum/img/perfil.jpg" width="200" height="200">
+                            <h2>ARIS JAHIR MONCADA LEIVA</h2>
+                            <h4><p>Soy un estudiante de ingenieria de sistemas de la universidad nacional del santa, actualmente estoy cursando el VIII ciclo de la carrera</p></h4>
+                        </div>
+
+                        <div class="col-md-6" align="left">
+                            <h1 align="center"><b>DATOS PERSONALES</b></h1>
+                           
+
+                            <OL>
+                                <h2><LI TYPE = "CIRCLE"> Fecha de nacimiento</h2>
+                                <h4><p style="color:red;">31 de mayo de 1998</p></h4>
+
+                                <h2><LI TYPE = "CIRCLE"> Ocupacion</h2>
+                                <h4><p style="color:red;">Estudiante</p></h4>
+
+                                <h2><LI TYPE = "CIRCLE"> Email</h2>
+                                <h4><p style="color:red;">jmoncada@hotmail.com</p></h4>
+
+                                <h2><LI TYPE = "CIRCLE">Telefono</h2>
+                                <h4><p style="color:red;">+51 936543073</p></h4>
+
+                                <h2><LI TYPE = "CIRCLE">Direccion</h2>
+                                <h4><p style="color:red;">21 de Abril Mz C 14 Lt 3</p></h4>
+
+                                <h2><LI TYPE = "CIRCLE">Redes sociales</h2>
+                                <h4>
+                                <p>
+                                    <a href="https://www.facebook.com/Jahiiir31520"><img src="img/fb24.png"/></a>
+                                    <a href="https://www.instagram.com/jahirmoncada/"><img src="img/insta24.png"/></a>
+                                </p>
+                                </h4>
+                            </OL>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <!--
+        <div id="footer">
+            <footer>
+                <iframe src="principal.html" frameborder="0"></iframe>
+            </footer>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+
+
+    </div>
+    <footer>
+    <div class="footer define" align="center">
+        <div class="row">
+        <div class="col-md-12">
+            <p>&copy; Creado por <a href="https://www.facebook.com/jahiiir31520">Jahir Moncada</a></p>
+        </div>
+        </div>
+    </div>
+    </footer>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
